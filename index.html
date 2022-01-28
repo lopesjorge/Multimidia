@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vídeo</title>
+    <h1>API Vídeo</h1>
+    <script src="video.js"></script>
+    <link rel="stylesheet" href="video.css">
+</head>
+
+<body>
+
+    <video id="video" controls src="./elephants-dream-medium.mp4"> 
+        <track srclang="en" label="Legendas em Inglês" kind="subtitles" src="./elephants-dream-subtitles-en.vtt" default>
+            <track/>
+            
+        <track srclang="de" label="Legendas em Alemão" kind="subtitles" src="./elephants-dream-subtitles-de.vtt">
+            <track/>
+    </video>
+    <canvas id="canvas"> </canvas>
+
+
+    <div id="imgs"> </div>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+#video {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+body {
+    background-color: rgb(216, 233, 227);
+}
